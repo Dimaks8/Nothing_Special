@@ -34,4 +34,5 @@ if __name__ == "__main__":
     p2.NumberToList(4567)
     print(p1)
     print(p2)
-    print(sum(p1.head, p2.head))
+    p3 = sum(p1.head, p2.head)
+    print(p3)
